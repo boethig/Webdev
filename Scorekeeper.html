@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		.win {
+			color: green;
+		}
+		.font {
+			font-family: Open Sans;
+			text-align: center;
+			padding-top: 10%;
+		}
+	</style>
+</head>
+<body>
+	<div class="font">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="content">
+						<h1><span id="player1">0</span> to <span id="player2">0</span></h1>
+						<form><input type="number" name="quantity"></form>
+						<h3>Playing to: <span id ="maxcount">0</span></h3>
+						<button class="btn btn-inverted btn-lg">Player One</button>
+						<button class="btn btn-inverted btn-lg">Player Two</button>
+						<button class="btn btn-inverted btn-lg">Reset</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Scorekeeper.js"></script>
+</body>
+</html>

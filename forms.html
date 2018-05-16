@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Forms Exercise: Slides
+	</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>
+	<label for="firstname">First Name:</label>
+	<input type="text" id ="firstname" placeholder="John" required>
+	<label for="lastname">Last Name:</label>
+	<input type="text" id="lastname" placeholder="Smith" required>
+	
+	<p>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="Male">
+
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="Female">
+
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other" value="Other">
+	</p>
+	<p>
+		<label for="email">Email:</label>
+		<input type="text" id="email" placeholder="your email" required>
+
+		<label for="password">Password:</label>
+		<input type="Password" id="password" placeholder="your password" required title="5 to 10 characters" minlength="5" maxlength="10">
+	</p>
+	<p>
+		<label for="birthday">Birthday:</label>
+		<select name="Month">
+			<option value="June">June</option>
+		</select>
+		<select name="Day">
+			<option value="26">26</option>
+		</select>
+		<select name="Year">
+			<option value="1996">1996</option>
+		</select>
+	</p>
+	<p>
+		<label for="agreement">I agree to the terms and conditions</label>
+		<input type="checkbox" id="agreement" required>
+	</p>
+	<button type="Submit">Submit</button>
+</form>
+</body>
+</html>
